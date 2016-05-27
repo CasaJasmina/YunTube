@@ -1,0 +1,131 @@
+
+
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  color: #000;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.625;
+}
+.headersvg{
+  width: 100%;
+  margin-top: 10%;
+}
+.cover {
+  padding: 0 20px;
+}
+.button_submit{
+  height: 43px !important;
+  font-size: 1.1em;
+}
+p.submit{
+  padding: 10px 10px 0 10px !important;
+}
+
+/* FORM */
+
+div#newsletter-form {
+  display: inline-block;
+  background-color: #FFF;
+  width: 100%;
+  margin-top: 100px !important;
+}
+div#newsletter-form h4 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #00979C;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 9px;
+}
+input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #7F8C8D;
+  font-style: italic;
+}
+input::-moz-placeholder {
+  font-size: 12px;
+  color: #7F8C8D;
+  font-style: italic;
+}
+input:-moz-placeholder {
+  /* Older versions of Firefox */
+  font-size: 12px;
+  color: #7F8C8D;
+  font-style: italic;
+}
+input:-ms-input-placeholder {
+  font-size: 12px;
+  color: #7F8C8D;
+  font-style: italic;
+}
+div#newsletter-form input[type="text"] {
+  background-color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #00979C;
+  letter-spacing: 1px;
+  border: 1px solid #FFB68D;
+  display: block;
+  margin: 0;
+  padding: 0 14px;
+  height: 43px;
+  width: calc(100% - 78px);
+  position: relative;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+}
+
+.PopUp{
+  background-color: #1DA086;
+  padding: 10px 40px 10px 40px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+.PopUp_error{
+  background-color: #DA5B4A;
+  padding: 10px 40px 10px 40px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+@media screen and (min-width: 480px) {
+  div#newsletter-form {
+    padding: 29px 28px 27px 28px;
+  }
+}
+
+/* END OF FORM */
+
+@media screen and (min-width: 550px) {}
+@media screen and (min-width: 860px) {}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1077px) {}
+@media screen and (min-width: 1200px) {}
